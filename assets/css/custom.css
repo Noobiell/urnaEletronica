@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.container-urna{
+    background: rgb(223, 223, 223);
+}
+.separador{
+    margin-bottom: 20px;
+}
+/*TECLADO*/
+.cabecalhoTeclado{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height: 100px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+.tituloJusticaEleitoral{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+#teclado{
+    background: #222;
+    height: 400px;
+}
+.btnTeclado{
+    width: 100%;
+    height: 40px;
+    background: rgb(36, 36, 36);
+    border: none;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 0px 5px 0px #000;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+.btnAcao{
+    width: 100%;
+    height: 60px;
+    font-weight: 500;
+    border: none;
+    color: #000;
+    box-shadow: 0px 5px 0px #000;
+}
+.branco{
+    background: #fff;
+}
+.corrige{
+    background: rgb(252, 136, 27);
+}
+.confirmar{
+    background: rgb(89, 197, 85);
+}
+.containerVoto{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+}
+.legendaTela{
+    font-size: 20px;
+    font-weight: 500;
+}
+.numeroVoto{
+    min-height: 60px;
+    min-width: 45px;
+    border: 1px solid #222;
+    padding: 2px 10px;
+    font-size: 35px;
+    user-select: none;
+}
+.informacaoCandidato{
+    font-size: 25px;
+}
+.containerFoto{
+    margin-top: 5px;
+    border: 1px solid #222;
+    text-align: center;
+}
